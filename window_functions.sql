@@ -1,3 +1,6 @@
+-- video ref: https://www.youtube.com/watch?v=dqwhNcZoMOQ&t=3064s
+-- online sql editor: https://dataexpert.io/classroom/zachwilson
+
 WITH lagged as (
   SELECT player_name, 
   season, 

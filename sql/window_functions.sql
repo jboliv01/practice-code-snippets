@@ -45,6 +45,7 @@ FROM aggregated
 SELECT * FROM ranked
 WHERE dense_rank <= 10
 
+-- ref: https://www.machinelearningplus.com/sql/sql-window-functions-exercises/
 
 -- From the demand2 table, find the cumulative total sum for qty.
 

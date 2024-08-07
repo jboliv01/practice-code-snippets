@@ -6,6 +6,20 @@ All questions are dervied from Zach Wilson's video tutorial [SQL Window Function
 
 You can perform the queries using the [DataExpert.io Query Editor](https://www.dataexpert.io/classroom/zachwilson).
 
+## Window Functions
+Window functions define a window and performing some sort of operation on it. 
+
+Key words for when to use a Window Function in a SQL interview:
+- Rolling
+- Rank
+- Consecutive
+- Deduplicate (can sometimes get away with using a group by, otherwise use ROW_NUMBER)
+
+Common question: Second highest salary by department 
+
+Note they didn't specify rank but used an ordinal term such as (Second highest, Third highest, etc.)
+
+
 ## Questions and Solutions
 
 1. **LAG Function:**

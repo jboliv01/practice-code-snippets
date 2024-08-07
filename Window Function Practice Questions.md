@@ -7,7 +7,7 @@ All questions are dervied from Zach Wilson's video tutorial [SQL Window Function
 You can perform the queries using the [DataExpert.io Query Editor](https://www.dataexpert.io/classroom/zachwilson).
 
 ## Window Functions
-Window functions define a `window` and performing some sort of `operation` on it. 
+Window functions define a `Window` and performing some sort of `operation` on it. 
 
 Key words for when to use a Window Function in a SQL interview:
 - Rolling
@@ -21,12 +21,13 @@ Note they didn't specify rank but used an ordinal term such as (Second highest, 
 
 
 ### What is a Window?
-A window is a set of rows determined by the OVER expression:
+A window is a set of rows determined by the `OVER` expression:
 
 OVER has a few components to it. 
-- PARTITION BY (determines how many 'slices' there will be)
-- ORDER BY (determines how a window is sorted)
-- ROWS (determines how many rows before and after the current row should be considered)
+- `PARTITION BY` (determines how many 'slices' there will be)
+- `ORDER BY` (determines how a window is sorted)
+- `ROWS` (determines how many rows before and after the current row should be considered)
+   - The ROWS clause isn't very common and typically only used in Rolling functions i.e. Rolling 30 day average.
 
 ## Questions and Solutions
 

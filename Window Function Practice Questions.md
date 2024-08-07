@@ -29,6 +29,18 @@ OVER has a few components to it:
 - `ROWS` (determines how many rows before and after the current row should be considered)
    - The ROWS clause isn't very common and typically only used in Rolling functions i.e. Rolling 30 day average.
 
+### Window Function Example:
+
+```sql
+SELECT department,
+   sales_date,
+   SUM(Revenue) OVER (
+      PARTITION by Department
+      ORDER by SalesDate
+      ROWS BETWEEN 29 PRECEEDING and CURRENT ROW
+   ) as monthly_rolling_department_revenue
+FROM SALES
+```
 ## Questions and Solutions
 
 1. **LAG Function:**

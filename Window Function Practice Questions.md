@@ -2,6 +2,10 @@
 
 This README contains practice questions and solutions to help you master Common Table Expressions (CTEs) and Window Functions in SQL. These questions are based on real-world scenarios and cover various aspects of advanced SQL querying.
 
+All questions are dervied from Zach Wilson's video tutorial [SQL Window Functions and CTEs](https://www.youtube.com/watch?v=dqwhNcZoMOQ&t=3064s).
+
+You can perform the queries using the [DataExpert.io Query Editor](https://www.dataexpert.io/classroom/zachwilson).
+
 ## Questions and Solutions
 
 1. **LAG Function:**

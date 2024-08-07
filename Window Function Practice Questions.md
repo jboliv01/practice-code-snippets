@@ -23,7 +23,7 @@ Note they didn't specify rank but used an ordinal term such as (Second highest, 
 ### What is a Window?
 A window is a set of rows determined by the `OVER` expression:
 
-OVER has a few components to it. 
+OVER has a few components to it:
 - `PARTITION BY` (determines how many 'slices' there will be)
 - `ORDER BY` (determines how a window is sorted)
 - `ROWS` (determines how many rows before and after the current row should be considered)
